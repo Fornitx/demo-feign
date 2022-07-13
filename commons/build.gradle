@@ -1,0 +1,10 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    api 'org.springframework:spring-web'
+    api 'io.projectreactor:reactor-core'
+    api 'javax.validation:validation-api'
+//    api 'jakarta.validation:jakarta.validation-api'
+}

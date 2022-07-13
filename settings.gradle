@@ -1,0 +1,11 @@
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'demo-feign'
+
+include 'commons'
+include 'server'
+include 'client'
